@@ -1,0 +1,6 @@
+[package]
+name = "sipua"
+version = "0.0.1"
+authors = ["Anatolii Kurotych <akurotych@gmail.com>"]
+license = "MIT"
+description = "SIP User-Agent library"
