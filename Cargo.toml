@@ -1,6 +1,14 @@
 [package]
 name = "sipua"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Anatolii Kurotych <akurotych@gmail.com>"]
 license = "MIT"
 description = "SIP User-Agent library"
+
+[dependencies]
+parsip = { version = "0.1.0", path = "crates/parsip" }
+
+[workspace]
+members = [
+    "crates/parsip"
+]
