@@ -1,6 +1,6 @@
 use sipua::transport;
 
-fn client_resp(r: parsip::Response, w: &dyn transport::sip::ResponseWriter) {}
+fn client_resp(r: parsip::Response, w: &dyn transport::sip::RequestWriter) {}
 
 fn client_err(ce: transport::sip::ConnectError) {}
 
