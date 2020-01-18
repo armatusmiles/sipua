@@ -1,7 +1,5 @@
-pub mod transport;
-
-pub extern crate parsip;
+pub extern crate sipcore;
 
 pub use crate:: {
-    parsip::*,
+    sipcore::*,
 };
